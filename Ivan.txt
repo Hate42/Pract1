@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  int *pd, x=2, y;
+  pd=&x;
+  y=*pd;
+  printf("y=%p\n", &y);
+  return 0;
+}
